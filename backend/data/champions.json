@@ -1,0 +1,932 @@
+[
+  {
+    "id": "TFT14_Brand",
+    "name": "Brand",
+    "tier": 4,
+    "image": {
+      "full": "TFT14_Brand.TFT_Set14.png",
+      "sprite": "tft-champion1.png",
+      "group": "tft-champion",
+      "x": 288,
+      "y": 0,
+      "w": 48,
+      "h": 48,
+      "url": "https://ddragon.leagueoflegends.com/cdn/15.9.1/img/tft-champion/TFT14_Brand.TFT_Set14.png"
+    }
+  },
+  {
+    "id": "TFT14_Darius",
+    "name": "Darius",
+    "tier": 2,
+    "image": {
+      "full": "TFT14_Darius.TFT_Set14.png",
+      "sprite": "tft-champion1.png",
+      "group": "tft-champion",
+      "x": 336,
+      "y": 0,
+      "w": 48,
+      "h": 48,
+      "url": "https://ddragon.leagueoflegends.com/cdn/15.9.1/img/tft-champion/TFT14_Darius.TFT_Set14.png"
+    }
+  },
+  {
+    "id": "TFT14_DrMundo",
+    "name": "Dr. Mundo",
+    "tier": 1,
+    "image": {
+      "full": "TFT14_DrMundo.TFT_Set14.png",
+      "sprite": "tft-champion1.png",
+      "group": "tft-champion",
+      "x": 384,
+      "y": 0,
+      "w": 48,
+      "h": 48,
+      "url": "https://ddragon.leagueoflegends.com/cdn/15.9.1/img/tft-champion/TFT14_DrMundo.TFT_Set14.png"
+    }
+  },
+  {
+    "id": "TFT14_Elise",
+    "name": "Elise",
+    "tier": 3,
+    "image": {
+      "full": "TFT14_Elise.TFT_Set14.png",
+      "sprite": "tft-champion1.png",
+      "group": "tft-champion",
+      "x": 432,
+      "y": 0,
+      "w": 48,
+      "h": 48,
+      "url": "https://ddragon.leagueoflegends.com/cdn/15.9.1/img/tft-champion/TFT14_Elise.TFT_Set14.png"
+    }
+  },
+  {
+    "id": "TFT14_Fiddlesticks",
+    "name": "Fiddlesticks",
+    "tier": 3,
+    "image": {
+      "full": "TFT14_Fiddlesticks.TFT_Set14.png",
+      "sprite": "tft-champion1.png",
+      "group": "tft-champion",
+      "x": 0,
+      "y": 48,
+      "w": 48,
+      "h": 48,
+      "url": "https://ddragon.leagueoflegends.com/cdn/15.9.1/img/tft-champion/TFT14_Fiddlesticks.TFT_Set14.png"
+    }
+  },
+  {
+    "id": "TFT14_Galio",
+    "name": "Galio",
+    "tier": 3,
+    "image": {
+      "full": "TFT14_Galio.TFT_Set14.png",
+      "sprite": "tft-champion1.png",
+      "group": "tft-champion",
+      "x": 48,
+      "y": 48,
+      "w": 48,
+      "h": 48,
+      "url": "https://ddragon.leagueoflegends.com/cdn/15.9.1/img/tft-champion/TFT14_Galio.TFT_Set14.png"
+    }
+  },
+  {
+    "id": "TFT14_Garen",
+    "name": "Garen",
+    "tier": 5,
+    "image": {
+      "full": "TFT14_Garen.TFT_Set14.png",
+      "sprite": "tft-champion1.png",
+      "group": "tft-champion",
+      "x": 96,
+      "y": 48,
+      "w": 48,
+      "h": 48,
+      "url": "https://ddragon.leagueoflegends.com/cdn/15.9.1/img/tft-champion/TFT14_Garen.TFT_Set14.png"
+    }
+  },
+  {
+    "id": "TFT14_LeBlanc",
+    "name": "LeBlanc",
+    "tier": 2,
+    "image": {
+      "full": "TFT14_LeBlanc.TFT_Set14.png",
+      "sprite": "tft-champion1.png",
+      "group": "tft-champion",
+      "x": 144,
+      "y": 48,
+      "w": 48,
+      "h": 48,
+      "url": "https://ddragon.leagueoflegends.com/cdn/15.9.1/img/tft-champion/TFT14_LeBlanc.TFT_Set14.png"
+    }
+  },
+  {
+    "id": "TFT14_MissFortune",
+    "name": "Miss Fortune",
+    "tier": 4,
+    "image": {
+      "full": "TFT14_MissFortune.TFT_Set14.png",
+      "sprite": "tft-champion1.png",
+      "group": "tft-champion",
+      "x": 192,
+      "y": 48,
+      "w": 48,
+      "h": 48,
+      "url": "https://ddragon.leagueoflegends.com/cdn/15.9.1/img/tft-champion/TFT14_MissFortune.TFT_Set14.png"
+    }
+  },
+  {
+    "id": "TFT14_Morgana",
+    "name": "Morgana",
+    "tier": 1,
+    "image": {
+      "full": "TFT14_Morgana.TFT_Set14.png",
+      "sprite": "tft-champion1.png",
+      "group": "tft-champion",
+      "x": 240,
+      "y": 48,
+      "w": 48,
+      "h": 48,
+      "url": "https://ddragon.leagueoflegends.com/cdn/15.9.1/img/tft-champion/TFT14_Morgana.TFT_Set14.png"
+    }
+  },
+  {
+    "id": "TFT14_Neeko",
+    "name": "Neeko",
+    "tier": 4,
+    "image": {
+      "full": "TFT14_Neeko.TFT_Set14.png",
+      "sprite": "tft-champion1.png",
+      "group": "tft-champion",
+      "x": 288,
+      "y": 48,
+      "w": 48,
+      "h": 48,
+      "url": "https://ddragon.leagueoflegends.com/cdn/15.9.1/img/tft-champion/TFT14_Neeko.TFT_Set14.png"
+    }
+  },
+  {
+    "id": "TFT14_Renekton",
+    "name": "Renekton",
+    "tier": 5,
+    "image": {
+      "full": "TFT14_Renekton.TFT_Set14.png",
+      "sprite": "tft-champion1.png",
+      "group": "tft-champion",
+      "x": 336,
+      "y": 48,
+      "w": 48,
+      "h": 48,
+      "url": "https://ddragon.leagueoflegends.com/cdn/15.9.1/img/tft-champion/TFT14_Renekton.TFT_Set14.png"
+    }
+  },
+  {
+    "id": "TFT14_Rengar",
+    "name": "Rengar",
+    "tier": 3,
+    "image": {
+      "full": "TFT14_Rengar.TFT_Set14.png",
+      "sprite": "tft-champion1.png",
+      "group": "tft-champion",
+      "x": 384,
+      "y": 48,
+      "w": 48,
+      "h": 48,
+      "url": "https://ddragon.leagueoflegends.com/cdn/15.9.1/img/tft-champion/TFT14_Rengar.TFT_Set14.png"
+    }
+  },
+  {
+    "id": "TFT14_Samira",
+    "name": "Samira",
+    "tier": 5,
+    "image": {
+      "full": "TFT14_Samira.TFT_Set14.png",
+      "sprite": "tft-champion1.png",
+      "group": "tft-champion",
+      "x": 432,
+      "y": 48,
+      "w": 48,
+      "h": 48,
+      "url": "https://ddragon.leagueoflegends.com/cdn/15.9.1/img/tft-champion/TFT14_Samira.TFT_Set14.png"
+    }
+  },
+  {
+    "id": "TFT14_Senna",
+    "name": "Senna",
+    "tier": 3,
+    "image": {
+      "full": "TFT14_Senna.TFT_Set14.png",
+      "sprite": "tft-champion1.png",
+      "group": "tft-champion",
+      "x": 0,
+      "y": 96,
+      "w": 48,
+      "h": 48,
+      "url": "https://ddragon.leagueoflegends.com/cdn/15.9.1/img/tft-champion/TFT14_Senna.TFT_Set14.png"
+    }
+  },
+  {
+    "id": "TFT14_Shaco",
+    "name": "Shaco",
+    "tier": 1,
+    "image": {
+      "full": "TFT14_Shaco.TFT_Set14.png",
+      "sprite": "tft-champion1.png",
+      "group": "tft-champion",
+      "x": 48,
+      "y": 96,
+      "w": 48,
+      "h": 48,
+      "url": "https://ddragon.leagueoflegends.com/cdn/15.9.1/img/tft-champion/TFT14_Shaco.TFT_Set14.png"
+    }
+  },
+  {
+    "id": "TFT14_TwistedFate",
+    "name": "Twisted Fate",
+    "tier": 2,
+    "image": {
+      "full": "TFT14_TwistedFate.TFT_Set14.png",
+      "sprite": "tft-champion1.png",
+      "group": "tft-champion",
+      "x": 96,
+      "y": 96,
+      "w": 48,
+      "h": 48,
+      "url": "https://ddragon.leagueoflegends.com/cdn/15.9.1/img/tft-champion/TFT14_TwistedFate.TFT_Set14.png"
+    }
+  },
+  {
+    "id": "TFT14_Varus",
+    "name": "Varus",
+    "tier": 3,
+    "image": {
+      "full": "TFT14_Varus.TFT_Set14.png",
+      "sprite": "tft-champion1.png",
+      "group": "tft-champion",
+      "x": 144,
+      "y": 96,
+      "w": 48,
+      "h": 48,
+      "url": "https://ddragon.leagueoflegends.com/cdn/15.9.1/img/tft-champion/TFT14_Varus.TFT_Set14.png"
+    }
+  },
+  {
+    "id": "TFT14_Veigar",
+    "name": "Veigar",
+    "tier": 2,
+    "image": {
+      "full": "TFT14_Veigar.TFT_Set14.png",
+      "sprite": "tft-champion1.png",
+      "group": "tft-champion",
+      "x": 192,
+      "y": 96,
+      "w": 48,
+      "h": 48,
+      "url": "https://ddragon.leagueoflegends.com/cdn/15.9.1/img/tft-champion/TFT14_Veigar.TFT_Set14.png"
+    }
+  },
+  {
+    "id": "TFT14_Vex",
+    "name": "Vex",
+    "tier": 4,
+    "image": {
+      "full": "TFT14_Vex.TFT_Set14.png",
+      "sprite": "tft-champion1.png",
+      "group": "tft-champion",
+      "x": 240,
+      "y": 96,
+      "w": 48,
+      "h": 48,
+      "url": "https://ddragon.leagueoflegends.com/cdn/15.9.1/img/tft-champion/TFT14_Vex.TFT_Set14.png"
+    }
+  },
+  {
+    "id": "TFT14_Zed",
+    "name": "Zed",
+    "tier": 4,
+    "image": {
+      "full": "TFT14_Zed.TFT_Set14.png",
+      "sprite": "tft-champion1.png",
+      "group": "tft-champion",
+      "x": 288,
+      "y": 96,
+      "w": 48,
+      "h": 48,
+      "url": "https://ddragon.leagueoflegends.com/cdn/15.9.1/img/tft-champion/TFT14_Zed.TFT_Set14.png"
+    }
+  },
+  {
+    "id": "TFT14_Zeri",
+    "name": "Zeri",
+    "tier": 4,
+    "image": {
+      "full": "TFT14_Zeri.TFT_Set14.png",
+      "sprite": "tft-champion1.png",
+      "group": "tft-champion",
+      "x": 336,
+      "y": 96,
+      "w": 48,
+      "h": 48,
+      "url": "https://ddragon.leagueoflegends.com/cdn/15.9.1/img/tft-champion/TFT14_Zeri.TFT_Set14.png"
+    }
+  },
+  {
+    "id": "TFT14_Zyra",
+    "name": "Zyra",
+    "tier": 1,
+    "image": {
+      "full": "TFT14_Zyra.TFT_Set14.png",
+      "sprite": "tft-champion1.png",
+      "group": "tft-champion",
+      "x": 384,
+      "y": 96,
+      "w": 48,
+      "h": 48,
+      "url": "https://ddragon.leagueoflegends.com/cdn/15.9.1/img/tft-champion/TFT14_Zyra.TFT_Set14.png"
+    }
+  },
+  {
+    "id": "TFT14_Braum",
+    "name": "Braum",
+    "tier": 3,
+    "image": {
+      "full": "TFT14_Braum.TFT_Set14.png",
+      "sprite": "tft-champion1.png",
+      "group": "tft-champion",
+      "x": 432,
+      "y": 96,
+      "w": 48,
+      "h": 48,
+      "url": "https://ddragon.leagueoflegends.com/cdn/15.9.1/img/tft-champion/TFT14_Braum.TFT_Set14.png"
+    }
+  },
+  {
+    "id": "TFT14_NidaleeCougar",
+    "name": "Nidalee",
+    "tier": 1,
+    "image": {
+      "full": "TFT14_NidaleeCougar.TFT_Set14.png",
+      "sprite": "tft-champion2.png",
+      "group": "tft-champion",
+      "x": 0,
+      "y": 0,
+      "w": 48,
+      "h": 48,
+      "url": "https://ddragon.leagueoflegends.com/cdn/15.9.1/img/tft-champion/TFT14_NidaleeCougar.TFT_Set14.png"
+    }
+  },
+  {
+    "id": "TFT14_Shyvana",
+    "name": "Shyvana",
+    "tier": 2,
+    "image": {
+      "full": "TFT14_Shyvana.TFT_Set14.png",
+      "sprite": "tft-champion2.png",
+      "group": "tft-champion",
+      "x": 48,
+      "y": 0,
+      "w": 48,
+      "h": 48,
+      "url": "https://ddragon.leagueoflegends.com/cdn/15.9.1/img/tft-champion/TFT14_Shyvana.TFT_Set14.png"
+    }
+  },
+  {
+    "id": "TFT14_Kindred",
+    "name": "Kindred",
+    "tier": 1,
+    "image": {
+      "full": "TFT14_Kindred.TFT_Set14.png",
+      "sprite": "tft-champion2.png",
+      "group": "tft-champion",
+      "x": 96,
+      "y": 0,
+      "w": 48,
+      "h": 48,
+      "url": "https://ddragon.leagueoflegends.com/cdn/15.9.1/img/tft-champion/TFT14_Kindred.TFT_Set14.png"
+    }
+  },
+  {
+    "id": "TFT14_Yuumi",
+    "name": "Yuumi",
+    "tier": 3,
+    "image": {
+      "full": "TFT14_Yuumi.TFT_Set14.png",
+      "sprite": "tft-champion2.png",
+      "group": "tft-champion",
+      "x": 144,
+      "y": 0,
+      "w": 48,
+      "h": 48,
+      "url": "https://ddragon.leagueoflegends.com/cdn/15.9.1/img/tft-champion/TFT14_Yuumi.TFT_Set14.png"
+    }
+  },
+  {
+    "id": "TFT14_Illaoi",
+    "name": "Illaoi",
+    "tier": 2,
+    "image": {
+      "full": "TFT14_Illaoi.TFT_Set14.png",
+      "sprite": "tft-champion2.png",
+      "group": "tft-champion",
+      "x": 192,
+      "y": 0,
+      "w": 48,
+      "h": 48,
+      "url": "https://ddragon.leagueoflegends.com/cdn/15.9.1/img/tft-champion/TFT14_Illaoi.TFT_Set14.png"
+    }
+  },
+  {
+    "id": "TFT14_Seraphine",
+    "name": "Seraphine",
+    "tier": 1,
+    "image": {
+      "full": "TFT14_Seraphine.TFT_Set14.png",
+      "sprite": "tft-champion2.png",
+      "group": "tft-champion",
+      "x": 240,
+      "y": 0,
+      "w": 48,
+      "h": 48,
+      "url": "https://ddragon.leagueoflegends.com/cdn/15.9.1/img/tft-champion/TFT14_Seraphine.TFT_Set14.png"
+    }
+  },
+  {
+    "id": "TFT14_Xayah",
+    "name": "Xayah",
+    "tier": 4,
+    "image": {
+      "full": "TFT14_Xayah.TFT_Set14.png",
+      "sprite": "tft-champion2.png",
+      "group": "tft-champion",
+      "x": 288,
+      "y": 0,
+      "w": 48,
+      "h": 48,
+      "url": "https://ddragon.leagueoflegends.com/cdn/15.9.1/img/tft-champion/TFT14_Xayah.TFT_Set14.png"
+    }
+  },
+  {
+    "id": "TFT14_Jhin",
+    "name": "Jhin",
+    "tier": 2,
+    "image": {
+      "full": "TFT14_Jhin.TFT_Set14.png",
+      "sprite": "tft-champion2.png",
+      "group": "tft-champion",
+      "x": 336,
+      "y": 0,
+      "w": 48,
+      "h": 48,
+      "url": "https://ddragon.leagueoflegends.com/cdn/15.9.1/img/tft-champion/TFT14_Jhin.TFT_Set14.png"
+    }
+  },
+  {
+    "id": "TFT14_Naafiri",
+    "name": "Naafiri",
+    "tier": 2,
+    "image": {
+      "full": "TFT14_Naafiri.TFT_Set14.png",
+      "sprite": "tft-champion2.png",
+      "group": "tft-champion",
+      "x": 384,
+      "y": 0,
+      "w": 48,
+      "h": 48,
+      "url": "https://ddragon.leagueoflegends.com/cdn/15.9.1/img/tft-champion/TFT14_Naafiri.TFT_Set14.png"
+    }
+  },
+  {
+    "id": "TFT14_Gragas",
+    "name": "Gragas",
+    "tier": 3,
+    "image": {
+      "full": "TFT14_Gragas.TFT_Set14.png",
+      "sprite": "tft-champion2.png",
+      "group": "tft-champion",
+      "x": 432,
+      "y": 0,
+      "w": 48,
+      "h": 48,
+      "url": "https://ddragon.leagueoflegends.com/cdn/15.9.1/img/tft-champion/TFT14_Gragas.TFT_Set14.png"
+    }
+  },
+  {
+    "id": "TFT14_KogMaw",
+    "name": "Kog'Maw",
+    "tier": 1,
+    "image": {
+      "full": "TFT14_KogMaw.TFT_Set14.png",
+      "sprite": "tft-champion2.png",
+      "group": "tft-champion",
+      "x": 0,
+      "y": 48,
+      "w": 48,
+      "h": 48,
+      "url": "https://ddragon.leagueoflegends.com/cdn/15.9.1/img/tft-champion/TFT14_KogMaw.TFT_Set14.png"
+    }
+  },
+  {
+    "id": "TFT14_Skarner",
+    "name": "Skarner",
+    "tier": 2,
+    "image": {
+      "full": "TFT14_Skarner.TFT_Set14.png",
+      "sprite": "tft-champion2.png",
+      "group": "tft-champion",
+      "x": 48,
+      "y": 48,
+      "w": 48,
+      "h": 48,
+      "url": "https://ddragon.leagueoflegends.com/cdn/15.9.1/img/tft-champion/TFT14_Skarner.TFT_Set14.png"
+    }
+  },
+  {
+    "id": "TFT14_Jax",
+    "name": "Jax",
+    "tier": 1,
+    "image": {
+      "full": "TFT14_Jax.TFT_Set14.png",
+      "sprite": "tft-champion2.png",
+      "group": "tft-champion",
+      "x": 96,
+      "y": 48,
+      "w": 48,
+      "h": 48,
+      "url": "https://ddragon.leagueoflegends.com/cdn/15.9.1/img/tft-champion/TFT14_Jax.TFT_Set14.png"
+    }
+  },
+  {
+    "id": "TFT14_Kobuko",
+    "name": "Kobuko",
+    "tier": 5,
+    "image": {
+      "full": "TFT14_Kobuko.TFT_Set14.png",
+      "sprite": "tft-champion2.png",
+      "group": "tft-champion",
+      "x": 144,
+      "y": 48,
+      "w": 48,
+      "h": 48,
+      "url": "https://ddragon.leagueoflegends.com/cdn/15.9.1/img/tft-champion/TFT14_Kobuko.TFT_Set14.png"
+    }
+  },
+  {
+    "id": "TFT14_Sejuani",
+    "name": "Sejuani",
+    "tier": 4,
+    "image": {
+      "full": "TFT14_Sejuani.TFT_Set14.png",
+      "sprite": "tft-champion2.png",
+      "group": "tft-champion",
+      "x": 192,
+      "y": 48,
+      "w": 48,
+      "h": 48,
+      "url": "https://ddragon.leagueoflegends.com/cdn/15.9.1/img/tft-champion/TFT14_Sejuani.TFT_Set14.png"
+    }
+  },
+  {
+    "id": "TFT14_Poppy",
+    "name": "Poppy",
+    "tier": 1,
+    "image": {
+      "full": "TFT14_Poppy.TFT_Set14.png",
+      "sprite": "tft-champion2.png",
+      "group": "tft-champion",
+      "x": 240,
+      "y": 48,
+      "w": 48,
+      "h": 48,
+      "url": "https://ddragon.leagueoflegends.com/cdn/15.9.1/img/tft-champion/TFT14_Poppy.TFT_Set14.png"
+    }
+  },
+  {
+    "id": "TFT14_Ziggs",
+    "name": "Ziggs",
+    "tier": 4,
+    "image": {
+      "full": "TFT14_Ziggs.TFT_Set14.png",
+      "sprite": "tft-champion2.png",
+      "group": "tft-champion",
+      "x": 288,
+      "y": 48,
+      "w": 48,
+      "h": 48,
+      "url": "https://ddragon.leagueoflegends.com/cdn/15.9.1/img/tft-champion/TFT14_Ziggs.TFT_Set14.png"
+    }
+  },
+  {
+    "id": "TFT14_Chogath",
+    "name": "Cho'Gath",
+    "tier": 4,
+    "image": {
+      "full": "TFT14_ChoGath.TFT_Set14.png",
+      "sprite": "tft-champion2.png",
+      "group": "tft-champion",
+      "x": 336,
+      "y": 48,
+      "w": 48,
+      "h": 48,
+      "url": "https://ddragon.leagueoflegends.com/cdn/15.9.1/img/tft-champion/TFT14_ChoGath.TFT_Set14.png"
+    }
+  },
+  {
+    "id": "TFT14_Urgot",
+    "name": "Urgot",
+    "tier": 5,
+    "image": {
+      "full": "TFT14_Urgot.TFT_Set14.png",
+      "sprite": "tft-champion2.png",
+      "group": "tft-champion",
+      "x": 384,
+      "y": 48,
+      "w": 48,
+      "h": 48,
+      "url": "https://ddragon.leagueoflegends.com/cdn/15.9.1/img/tft-champion/TFT14_Urgot.TFT_Set14.png"
+    }
+  },
+  {
+    "id": "TFT14_Sylas",
+    "name": "Sylas",
+    "tier": 1,
+    "image": {
+      "full": "TFT14_Sylas.TFT_Set14.png",
+      "sprite": "tft-champion2.png",
+      "group": "tft-champion",
+      "x": 432,
+      "y": 48,
+      "w": 48,
+      "h": 48,
+      "url": "https://ddragon.leagueoflegends.com/cdn/15.9.1/img/tft-champion/TFT14_Sylas.TFT_Set14.png"
+    }
+  },
+  {
+    "id": "TFT14_Aurora",
+    "name": "Aurora",
+    "tier": 5,
+    "image": {
+      "full": "TFT14_Aurora.TFT_Set14.png",
+      "sprite": "tft-champion2.png",
+      "group": "tft-champion",
+      "x": 0,
+      "y": 96,
+      "w": 48,
+      "h": 48,
+      "url": "https://ddragon.leagueoflegends.com/cdn/15.9.1/img/tft-champion/TFT14_Aurora.TFT_Set14.png"
+    }
+  },
+  {
+    "id": "TFT14_Vayne",
+    "name": "Vayne",
+    "tier": 2,
+    "image": {
+      "full": "TFT14_Vayne.TFT_Set14.png",
+      "sprite": "tft-champion2.png",
+      "group": "tft-champion",
+      "x": 48,
+      "y": 96,
+      "w": 48,
+      "h": 48,
+      "url": "https://ddragon.leagueoflegends.com/cdn/15.9.1/img/tft-champion/TFT14_Vayne.TFT_Set14.png"
+    }
+  },
+  {
+    "id": "TFT14_Leona",
+    "name": "Leona",
+    "tier": 4,
+    "image": {
+      "full": "TFT14_Leona.TFT_Set14.png",
+      "sprite": "tft-champion2.png",
+      "group": "tft-champion",
+      "x": 96,
+      "y": 96,
+      "w": 48,
+      "h": 48,
+      "url": "https://ddragon.leagueoflegends.com/cdn/15.9.1/img/tft-champion/TFT14_Leona.TFT_Set14.png"
+    }
+  },
+  {
+    "id": "TFT14_Vi",
+    "name": "Vi",
+    "tier": 1,
+    "image": {
+      "full": "TFT14_Vi.TFT_Set14.png",
+      "sprite": "tft-champion2.png",
+      "group": "tft-champion",
+      "x": 144,
+      "y": 96,
+      "w": 48,
+      "h": 48,
+      "url": "https://ddragon.leagueoflegends.com/cdn/15.9.1/img/tft-champion/TFT14_Vi.TFT_Set14.png"
+    }
+  },
+  {
+    "id": "TFT14_Mordekaiser",
+    "name": "Mordekaiser",
+    "tier": 3,
+    "image": {
+      "full": "TFT14_Mordekaiser.TFT_Set14.png",
+      "sprite": "tft-champion2.png",
+      "group": "tft-champion",
+      "x": 192,
+      "y": 96,
+      "w": 48,
+      "h": 48,
+      "url": "https://ddragon.leagueoflegends.com/cdn/15.9.1/img/tft-champion/TFT14_Mordekaiser.TFT_Set14.png"
+    }
+  },
+  {
+    "id": "TFT14_Alistar",
+    "name": "Alistar",
+    "tier": 1,
+    "image": {
+      "full": "TFT14_Alistar.TFT_Set14.png",
+      "sprite": "tft-champion2.png",
+      "group": "tft-champion",
+      "x": 240,
+      "y": 96,
+      "w": 48,
+      "h": 48,
+      "url": "https://ddragon.leagueoflegends.com/cdn/15.9.1/img/tft-champion/TFT14_Alistar.TFT_Set14.png"
+    }
+  },
+  {
+    "id": "TFT14_Viego",
+    "name": "Viego",
+    "tier": 5,
+    "image": {
+      "full": "TFT14_Viego.TFT_Set14.png",
+      "sprite": "tft-champion2.png",
+      "group": "tft-champion",
+      "x": 288,
+      "y": 96,
+      "w": 48,
+      "h": 48,
+      "url": "https://ddragon.leagueoflegends.com/cdn/15.9.1/img/tft-champion/TFT14_Viego.TFT_Set14.png"
+    }
+  },
+  {
+    "id": "TFT14_Jarvan",
+    "name": "Jarvan IV",
+    "tier": 3,
+    "image": {
+      "full": "TFT14_Jarvan.TFT_Set14.png",
+      "sprite": "tft-champion2.png",
+      "group": "tft-champion",
+      "x": 336,
+      "y": 96,
+      "w": 48,
+      "h": 48,
+      "url": "https://ddragon.leagueoflegends.com/cdn/15.9.1/img/tft-champion/TFT14_Jarvan.TFT_Set14.png"
+    }
+  },
+  {
+    "id": "TFT14_Graves",
+    "name": "Graves",
+    "tier": 2,
+    "image": {
+      "full": "TFT14_Graves.TFT_Set14.png",
+      "sprite": "tft-champion2.png",
+      "group": "tft-champion",
+      "x": 384,
+      "y": 96,
+      "w": 48,
+      "h": 48,
+      "url": "https://ddragon.leagueoflegends.com/cdn/15.9.1/img/tft-champion/TFT14_Graves.TFT_Set14.png"
+    }
+  },
+  {
+    "id": "TFT14_Annie",
+    "name": "Annie",
+    "tier": 4,
+    "image": {
+      "full": "TFT14_Annie.TFT_Set14.png",
+      "sprite": "tft-champion2.png",
+      "group": "tft-champion",
+      "x": 432,
+      "y": 96,
+      "w": 48,
+      "h": 48,
+      "url": "https://ddragon.leagueoflegends.com/cdn/15.9.1/img/tft-champion/TFT14_Annie.TFT_Set14.png"
+    }
+  },
+  {
+    "id": "TFT14_Rhaast",
+    "name": "Rhaast",
+    "tier": 2,
+    "image": {
+      "full": "TFT14_Rhaast.TFT_Set14.png",
+      "sprite": "tft-champion3.png",
+      "group": "tft-champion",
+      "x": 0,
+      "y": 0,
+      "w": 48,
+      "h": 48,
+      "url": "https://ddragon.leagueoflegends.com/cdn/15.9.1/img/tft-champion/TFT14_Rhaast.TFT_Set14.png"
+    }
+  },
+  {
+    "id": "TFT14_SummonLevel2",
+    "name": "R-080T",
+    "tier": 2,
+    "image": {
+      "full": "TFT14_Mimic.TFT_Set14.png",
+      "sprite": "tft-champion3.png",
+      "group": "tft-champion",
+      "x": 48,
+      "y": 0,
+      "w": 48,
+      "h": 48,
+      "url": "https://ddragon.leagueoflegends.com/cdn/15.9.1/img/tft-champion/TFT14_Mimic.TFT_Set14.png"
+    }
+  },
+  {
+    "id": "TFT14_SummonLevel4",
+    "name": "T-43X",
+    "tier": 4,
+    "image": {
+      "full": "TFT14_THex.TFT_Set14.png",
+      "sprite": "tft-champion3.png",
+      "group": "tft-champion",
+      "x": 96,
+      "y": 0,
+      "w": 48,
+      "h": 48,
+      "url": "https://ddragon.leagueoflegends.com/cdn/15.9.1/img/tft-champion/TFT14_THex.TFT_Set14.png"
+    }
+  },
+  {
+    "id": "TFT14_Draven",
+    "name": "Draven",
+    "tier": 3,
+    "image": {
+      "full": "TFT14_Draven.TFT_Set14.png",
+      "sprite": "tft-champion3.png",
+      "group": "tft-champion",
+      "x": 144,
+      "y": 0,
+      "w": 48,
+      "h": 48,
+      "url": "https://ddragon.leagueoflegends.com/cdn/15.9.1/img/tft-champion/TFT14_Draven.TFT_Set14.png"
+    }
+  },
+  {
+    "id": "TFT14_Zac",
+    "name": "Zac",
+    "tier": 5,
+    "image": {
+      "full": "TFT14_Zac.TFT_Set14.png",
+      "sprite": "tft-champion3.png",
+      "group": "tft-champion",
+      "x": 192,
+      "y": 0,
+      "w": 48,
+      "h": 48,
+      "url": "https://ddragon.leagueoflegends.com/cdn/15.9.1/img/tft-champion/TFT14_Zac.TFT_Set14.png"
+    }
+  },
+  {
+    "id": "TFT14_Jinx",
+    "name": "Jinx",
+    "tier": 3,
+    "image": {
+      "full": "TFT14_Jinx.TFT_Set14.png",
+      "sprite": "tft-champion3.png",
+      "group": "tft-champion",
+      "x": 240,
+      "y": 0,
+      "w": 48,
+      "h": 48,
+      "url": "https://ddragon.leagueoflegends.com/cdn/15.9.1/img/tft-champion/TFT14_Jinx.TFT_Set14.png"
+    }
+  },
+  {
+    "id": "TFT14_Ekko",
+    "name": "Ekko",
+    "tier": 2,
+    "image": {
+      "full": "TFT14_Ekko.TFT_Set14.png",
+      "sprite": "tft-champion3.png",
+      "group": "tft-champion",
+      "x": 288,
+      "y": 0,
+      "w": 48,
+      "h": 48,
+      "url": "https://ddragon.leagueoflegends.com/cdn/15.9.1/img/tft-champion/TFT14_Ekko.TFT_Set14.png"
+    }
+  },
+  {
+    "id": "TFT14_Aphelios",
+    "name": "Aphelios",
+    "tier": 4,
+    "image": {
+      "full": "TFT14_Aphelios.TFT_Set14.png",
+      "sprite": "tft-champion3.png",
+      "group": "tft-champion",
+      "x": 48,
+      "y": 48,
+      "w": 48,
+      "h": 48,
+      "url": "https://ddragon.leagueoflegends.com/cdn/15.9.1/img/tft-champion/TFT14_Aphelios.TFT_Set14.png"
+    }
+  }
+]

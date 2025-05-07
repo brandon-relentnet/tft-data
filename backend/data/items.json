@@ -1,0 +1,1192 @@
+[
+  {
+    "id": "TFT_Item_BFSword",
+    "name": "B.F. Sword",
+    "image": {
+      "full": "TFT_Item_BFSword.png",
+      "sprite": "tft-item0.png",
+      "group": "tft-item",
+      "x": 192,
+      "y": 0,
+      "w": 48,
+      "h": 48,
+      "url": "https://ddragon.leagueoflegends.com/cdn/15.9.1/img/tft-item/TFT_Item_BFSword.png"
+    }
+  },
+  {
+    "id": "TFT_Item_Bloodthirster",
+    "name": "Bloodthirster",
+    "image": {
+      "full": "TFT_Item_Bloodthirster.png",
+      "sprite": "tft-item0.png",
+      "group": "tft-item",
+      "x": 240,
+      "y": 0,
+      "w": 48,
+      "h": 48,
+      "url": "https://ddragon.leagueoflegends.com/cdn/15.9.1/img/tft-item/TFT_Item_Bloodthirster.png"
+    }
+  },
+  {
+    "id": "TFT_Item_BrambleVest",
+    "name": "Bramble Vest",
+    "image": {
+      "full": "TFT_Item_BrambleVest.png",
+      "sprite": "tft-item0.png",
+      "group": "tft-item",
+      "x": 288,
+      "y": 0,
+      "w": 48,
+      "h": 48,
+      "url": "https://ddragon.leagueoflegends.com/cdn/15.9.1/img/tft-item/TFT_Item_BrambleVest.png"
+    }
+  },
+  {
+    "id": "TFT_Item_ChainVest",
+    "name": "Chain Vest",
+    "image": {
+      "full": "TFT_Item_ChainVest.png",
+      "sprite": "tft-item0.png",
+      "group": "tft-item",
+      "x": 336,
+      "y": 0,
+      "w": 48,
+      "h": 48,
+      "url": "https://ddragon.leagueoflegends.com/cdn/15.9.1/img/tft-item/TFT_Item_ChainVest.png"
+    }
+  },
+  {
+    "id": "TFT_Item_SparringGloves",
+    "name": "Sparring Gloves",
+    "image": {
+      "full": "TFT_Item_SparringGloves.png",
+      "sprite": "tft-item0.png",
+      "group": "tft-item",
+      "x": 384,
+      "y": 0,
+      "w": 48,
+      "h": 48,
+      "url": "https://ddragon.leagueoflegends.com/cdn/15.9.1/img/tft-item/TFT_Item_SparringGloves.png"
+    }
+  },
+  {
+    "id": "TFT_Item_Deathblade",
+    "name": "Deathblade",
+    "image": {
+      "full": "TFT_Item_Deathblade.png",
+      "sprite": "tft-item0.png",
+      "group": "tft-item",
+      "x": 432,
+      "y": 0,
+      "w": 48,
+      "h": 48,
+      "url": "https://ddragon.leagueoflegends.com/cdn/15.9.1/img/tft-item/TFT_Item_Deathblade.png"
+    }
+  },
+  {
+    "id": "TFT_Item_DragonsClaw",
+    "name": "Dragon's Claw",
+    "image": {
+      "full": "TFT_Item_DragonsClaw.png",
+      "sprite": "tft-item0.png",
+      "group": "tft-item",
+      "x": 0,
+      "y": 48,
+      "w": 48,
+      "h": 48,
+      "url": "https://ddragon.leagueoflegends.com/cdn/15.9.1/img/tft-item/TFT_Item_DragonsClaw.png"
+    }
+  },
+  {
+    "id": "TFT_Item_EmptyBag",
+    "name": "",
+    "image": {
+      "full": "TFT_Item_EmptyBag.png",
+      "sprite": "tft-item0.png",
+      "group": "tft-item",
+      "x": 48,
+      "y": 48,
+      "w": 48,
+      "h": 48,
+      "url": "https://ddragon.leagueoflegends.com/cdn/15.9.1/img/tft-item/TFT_Item_EmptyBag.png"
+    }
+  },
+  {
+    "id": "TFT_Item_ForceOfNature",
+    "name": "Tactician's Crown",
+    "image": {
+      "full": "TFT_Item_ForceOfNature.png",
+      "sprite": "tft-item0.png",
+      "group": "tft-item",
+      "x": 96,
+      "y": 48,
+      "w": 48,
+      "h": 48,
+      "url": "https://ddragon.leagueoflegends.com/cdn/15.9.1/img/tft-item/TFT_Item_ForceOfNature.png"
+    }
+  },
+  {
+    "id": "TFT_Item_ThiefsGloves",
+    "name": "Thief's Gloves",
+    "image": {
+      "full": "TFT_Item_ThiefsGloves.png",
+      "sprite": "tft-item0.png",
+      "group": "tft-item",
+      "x": 144,
+      "y": 48,
+      "w": 48,
+      "h": 48,
+      "url": "https://ddragon.leagueoflegends.com/cdn/15.9.1/img/tft-item/TFT_Item_ThiefsGloves.png"
+    }
+  },
+  {
+    "id": "TFT_Item_Shroud",
+    "name": "Shroud of Stillness",
+    "image": {
+      "full": "TFT_Item_Shroud.png",
+      "sprite": "tft-item0.png",
+      "group": "tft-item",
+      "x": 192,
+      "y": 48,
+      "w": 48,
+      "h": 48,
+      "url": "https://ddragon.leagueoflegends.com/cdn/15.9.1/img/tft-item/TFT_Item_Shroud.png"
+    }
+  },
+  {
+    "id": "TFT_Item_FrozenHeart",
+    "name": "Protector's Vow",
+    "image": {
+      "full": "TFT_Item_FrozenHeart.png",
+      "sprite": "tft-item0.png",
+      "group": "tft-item",
+      "x": 240,
+      "y": 48,
+      "w": 48,
+      "h": 48,
+      "url": "https://ddragon.leagueoflegends.com/cdn/15.9.1/img/tft-item/TFT_Item_FrozenHeart.png"
+    }
+  },
+  {
+    "id": "TFT_Item_GiantsBelt",
+    "name": "Giant's Belt",
+    "image": {
+      "full": "TFT_Item_GiantsBelt.png",
+      "sprite": "tft-item0.png",
+      "group": "tft-item",
+      "x": 288,
+      "y": 48,
+      "w": 48,
+      "h": 48,
+      "url": "https://ddragon.leagueoflegends.com/cdn/15.9.1/img/tft-item/TFT_Item_GiantsBelt.png"
+    }
+  },
+  {
+    "id": "TFT_Item_MadredsBloodrazor",
+    "name": "Giant Slayer",
+    "image": {
+      "full": "TFT_Item_MadredsBloodrazor.png",
+      "sprite": "tft-item0.png",
+      "group": "tft-item",
+      "x": 336,
+      "y": 48,
+      "w": 48,
+      "h": 48,
+      "url": "https://ddragon.leagueoflegends.com/cdn/15.9.1/img/tft-item/TFT_Item_MadredsBloodrazor.png"
+    }
+  },
+  {
+    "id": "TFT_Item_GuardianAngel",
+    "name": "Edge of Night",
+    "image": {
+      "full": "TFT_Item_GuardianAngel.png",
+      "sprite": "tft-item0.png",
+      "group": "tft-item",
+      "x": 384,
+      "y": 48,
+      "w": 48,
+      "h": 48,
+      "url": "https://ddragon.leagueoflegends.com/cdn/15.9.1/img/tft-item/TFT_Item_GuardianAngel.png"
+    }
+  },
+  {
+    "id": "TFT_Item_GuinsoosRageblade",
+    "name": "Guinsoo's Rageblade",
+    "image": {
+      "full": "TFT_Item_GuinsoosRageblade.png",
+      "sprite": "tft-item0.png",
+      "group": "tft-item",
+      "x": 432,
+      "y": 48,
+      "w": 48,
+      "h": 48,
+      "url": "https://ddragon.leagueoflegends.com/cdn/15.9.1/img/tft-item/TFT_Item_GuinsoosRageblade.png"
+    }
+  },
+  {
+    "id": "TFT_Item_UnstableConcoction",
+    "name": "Hand Of Justice",
+    "image": {
+      "full": "TFT_Item_UnstableConcoction.png",
+      "sprite": "tft-item0.png",
+      "group": "tft-item",
+      "x": 0,
+      "y": 96,
+      "w": 48,
+      "h": 48,
+      "url": "https://ddragon.leagueoflegends.com/cdn/15.9.1/img/tft-item/TFT_Item_UnstableConcoction.png"
+    }
+  },
+  {
+    "id": "TFT_Item_HextechGunblade",
+    "name": "Hextech Gunblade",
+    "image": {
+      "full": "TFT_Item_HextechGunblade.png",
+      "sprite": "tft-item0.png",
+      "group": "tft-item",
+      "x": 48,
+      "y": 96,
+      "w": 48,
+      "h": 48,
+      "url": "https://ddragon.leagueoflegends.com/cdn/15.9.1/img/tft-item/TFT_Item_HextechGunblade.png"
+    }
+  },
+  {
+    "id": "TFT_Item_Chalice",
+    "name": "Chalice of Power",
+    "image": {
+      "full": "TFT_Item_Chalice.png",
+      "sprite": "tft-item0.png",
+      "group": "tft-item",
+      "x": 96,
+      "y": 96,
+      "w": 48,
+      "h": 48,
+      "url": "https://ddragon.leagueoflegends.com/cdn/15.9.1/img/tft-item/TFT_Item_Chalice.png"
+    }
+  },
+  {
+    "id": "TFT_Item_InfinityEdge",
+    "name": "Infinity Edge",
+    "image": {
+      "full": "TFT_Item_InfinityEdge.png",
+      "sprite": "tft-item0.png",
+      "group": "tft-item",
+      "x": 144,
+      "y": 96,
+      "w": 48,
+      "h": 48,
+      "url": "https://ddragon.leagueoflegends.com/cdn/15.9.1/img/tft-item/TFT_Item_InfinityEdge.png"
+    }
+  },
+  {
+    "id": "TFT_Item_IonicSpark",
+    "name": "Ionic Spark",
+    "image": {
+      "full": "TFT_Item_IonicSpark.png",
+      "sprite": "tft-item0.png",
+      "group": "tft-item",
+      "x": 192,
+      "y": 96,
+      "w": 48,
+      "h": 48,
+      "url": "https://ddragon.leagueoflegends.com/cdn/15.9.1/img/tft-item/TFT_Item_IonicSpark.png"
+    }
+  },
+  {
+    "id": "TFT_Item_JeweledGauntlet",
+    "name": "Jeweled Gauntlet",
+    "image": {
+      "full": "TFT_Item_JeweledGauntlet.png",
+      "sprite": "tft-item0.png",
+      "group": "tft-item",
+      "x": 240,
+      "y": 96,
+      "w": 48,
+      "h": 48,
+      "url": "https://ddragon.leagueoflegends.com/cdn/15.9.1/img/tft-item/TFT_Item_JeweledGauntlet.png"
+    }
+  },
+  {
+    "id": "TFT_Item_LastWhisper",
+    "name": "Last Whisper",
+    "image": {
+      "full": "TFT_Item_LastWhisper.png",
+      "sprite": "tft-item0.png",
+      "group": "tft-item",
+      "x": 288,
+      "y": 96,
+      "w": 48,
+      "h": 48,
+      "url": "https://ddragon.leagueoflegends.com/cdn/15.9.1/img/tft-item/TFT_Item_LastWhisper.png"
+    }
+  },
+  {
+    "id": "TFT_Item_LocketOfTheIronSolari",
+    "name": "Locket of the Iron Solari",
+    "image": {
+      "full": "TFT_Item_LocketOfTheIronSolari.png",
+      "sprite": "tft-item0.png",
+      "group": "tft-item",
+      "x": 336,
+      "y": 96,
+      "w": 48,
+      "h": 48,
+      "url": "https://ddragon.leagueoflegends.com/cdn/15.9.1/img/tft-item/TFT_Item_LocketOfTheIronSolari.png"
+    }
+  },
+  {
+    "id": "TFT_Item_ArchangelsStaff",
+    "name": "Archangel's Staff",
+    "image": {
+      "full": "TFT_Item_ArchangelsStaff.png",
+      "sprite": "tft-item0.png",
+      "group": "tft-item",
+      "x": 384,
+      "y": 96,
+      "w": 48,
+      "h": 48,
+      "url": "https://ddragon.leagueoflegends.com/cdn/15.9.1/img/tft-item/TFT_Item_ArchangelsStaff.png"
+    }
+  },
+  {
+    "id": "TFT_Item_Spatula",
+    "name": "Spatula",
+    "image": {
+      "full": "TFT_Item_Spatula.png",
+      "sprite": "tft-item0.png",
+      "group": "tft-item",
+      "x": 432,
+      "y": 96,
+      "w": 48,
+      "h": 48,
+      "url": "https://ddragon.leagueoflegends.com/cdn/15.9.1/img/tft-item/TFT_Item_Spatula.png"
+    }
+  },
+  {
+    "id": "TFT_Item_Quicksilver",
+    "name": "Quicksilver",
+    "image": {
+      "full": "TFT_Item_Quicksilver.png",
+      "sprite": "tft-item1.png",
+      "group": "tft-item",
+      "x": 0,
+      "y": 0,
+      "w": 48,
+      "h": 48,
+      "url": "https://ddragon.leagueoflegends.com/cdn/15.9.1/img/tft-item/TFT_Item_Quicksilver.png"
+    }
+  },
+  {
+    "id": "TFT_Item_Morellonomicon",
+    "name": "Morellonomicon",
+    "image": {
+      "full": "TFT_Item_Morellonomicon.png",
+      "sprite": "tft-item1.png",
+      "group": "tft-item",
+      "x": 48,
+      "y": 0,
+      "w": 48,
+      "h": 48,
+      "url": "https://ddragon.leagueoflegends.com/cdn/15.9.1/img/tft-item/TFT_Item_Morellonomicon.png"
+    }
+  },
+  {
+    "id": "TFT_Item_NeedlesslyLargeRod",
+    "name": "Needlessly Large Rod",
+    "image": {
+      "full": "TFT_Item_NeedlesslyLargeRod.png",
+      "sprite": "tft-item1.png",
+      "group": "tft-item",
+      "x": 96,
+      "y": 0,
+      "w": 48,
+      "h": 48,
+      "url": "https://ddragon.leagueoflegends.com/cdn/15.9.1/img/tft-item/TFT_Item_NeedlesslyLargeRod.png"
+    }
+  },
+  {
+    "id": "TFT_Item_NegatronCloak",
+    "name": "Negatron Cloak",
+    "image": {
+      "full": "TFT_Item_NegatronCloak.png",
+      "sprite": "tft-item1.png",
+      "group": "tft-item",
+      "x": 144,
+      "y": 0,
+      "w": 48,
+      "h": 48,
+      "url": "https://ddragon.leagueoflegends.com/cdn/15.9.1/img/tft-item/TFT_Item_NegatronCloak.png"
+    }
+  },
+  {
+    "id": "TFT_Item_PowerGauntlet",
+    "name": "Guardbreaker",
+    "image": {
+      "full": "TFT_Item_PowerGauntlet.png",
+      "sprite": "tft-item1.png",
+      "group": "tft-item",
+      "x": 192,
+      "y": 0,
+      "w": 48,
+      "h": 48,
+      "url": "https://ddragon.leagueoflegends.com/cdn/15.9.1/img/tft-item/TFT_Item_PowerGauntlet.png"
+    }
+  },
+  {
+    "id": "TFT_Item_RabadonsDeathcap",
+    "name": "Rabadon's Deathcap",
+    "image": {
+      "full": "TFT_Item_RabadonsDeathcap.png",
+      "sprite": "tft-item1.png",
+      "group": "tft-item",
+      "x": 240,
+      "y": 0,
+      "w": 48,
+      "h": 48,
+      "url": "https://ddragon.leagueoflegends.com/cdn/15.9.1/img/tft-item/TFT_Item_RabadonsDeathcap.png"
+    }
+  },
+  {
+    "id": "TFT_Item_RapidFireCannon",
+    "name": "Red Buff",
+    "image": {
+      "full": "TFT_Item_RapidFireCannon.png",
+      "sprite": "tft-item1.png",
+      "group": "tft-item",
+      "x": 288,
+      "y": 0,
+      "w": 48,
+      "h": 48,
+      "url": "https://ddragon.leagueoflegends.com/cdn/15.9.1/img/tft-item/TFT_Item_RapidFireCannon.png"
+    }
+  },
+  {
+    "id": "TFT_Item_RecurveBow",
+    "name": "Recurve Bow",
+    "image": {
+      "full": "TFT_Item_RecurveBow.png",
+      "sprite": "tft-item1.png",
+      "group": "tft-item",
+      "x": 336,
+      "y": 0,
+      "w": 48,
+      "h": 48,
+      "url": "https://ddragon.leagueoflegends.com/cdn/15.9.1/img/tft-item/TFT_Item_RecurveBow.png"
+    }
+  },
+  {
+    "id": "TFT_Item_RedBuff",
+    "name": "Sunfire Cape",
+    "image": {
+      "full": "TFT_Item_RedBuff.png",
+      "sprite": "tft-item1.png",
+      "group": "tft-item",
+      "x": 384,
+      "y": 0,
+      "w": 48,
+      "h": 48,
+      "url": "https://ddragon.leagueoflegends.com/cdn/15.9.1/img/tft-item/TFT_Item_RedBuff.png"
+    }
+  },
+  {
+    "id": "TFT_Item_Redemption",
+    "name": "Redemption",
+    "image": {
+      "full": "TFT_Item_Redemption.png",
+      "sprite": "tft-item1.png",
+      "group": "tft-item",
+      "x": 432,
+      "y": 0,
+      "w": 48,
+      "h": 48,
+      "url": "https://ddragon.leagueoflegends.com/cdn/15.9.1/img/tft-item/TFT_Item_Redemption.png"
+    }
+  },
+  {
+    "id": "TFT_Item_RunaansHurricane",
+    "name": "Runaan's Hurricane",
+    "image": {
+      "full": "TFT_Item_RunaansHurricane.png",
+      "sprite": "tft-item1.png",
+      "group": "tft-item",
+      "x": 0,
+      "y": 48,
+      "w": 48,
+      "h": 48,
+      "url": "https://ddragon.leagueoflegends.com/cdn/15.9.1/img/tft-item/TFT_Item_RunaansHurricane.png"
+    }
+  },
+  {
+    "id": "TFT_Item_SpearOfShojin",
+    "name": "Spear of Shojin",
+    "image": {
+      "full": "TFT_Item_SpearOfShojin.png",
+      "sprite": "tft-item1.png",
+      "group": "tft-item",
+      "x": 48,
+      "y": 48,
+      "w": 48,
+      "h": 48,
+      "url": "https://ddragon.leagueoflegends.com/cdn/15.9.1/img/tft-item/TFT_Item_SpearOfShojin.png"
+    }
+  },
+  {
+    "id": "TFT_Item_StatikkShiv",
+    "name": "Statikk Shiv",
+    "image": {
+      "full": "TFT_Item_StatikkShiv.png",
+      "sprite": "tft-item1.png",
+      "group": "tft-item",
+      "x": 96,
+      "y": 48,
+      "w": 48,
+      "h": 48,
+      "url": "https://ddragon.leagueoflegends.com/cdn/15.9.1/img/tft-item/TFT_Item_StatikkShiv.png"
+    }
+  },
+  {
+    "id": "TFT_Item_GargoyleStoneplate",
+    "name": "Gargoyle Stoneplate",
+    "image": {
+      "full": "TFT_Item_GargoyleStoneplate.png",
+      "sprite": "tft-item1.png",
+      "group": "tft-item",
+      "x": 144,
+      "y": 48,
+      "w": 48,
+      "h": 48,
+      "url": "https://ddragon.leagueoflegends.com/cdn/15.9.1/img/tft-item/TFT_Item_GargoyleStoneplate.png"
+    }
+  },
+  {
+    "id": "TFT_Item_TearOfTheGoddess",
+    "name": "Tear of the Goddess",
+    "image": {
+      "full": "TFT_Item_TearOfTheGoddess.png",
+      "sprite": "tft-item1.png",
+      "group": "tft-item",
+      "x": 192,
+      "y": 48,
+      "w": 48,
+      "h": 48,
+      "url": "https://ddragon.leagueoflegends.com/cdn/15.9.1/img/tft-item/TFT_Item_TearOfTheGoddess.png"
+    }
+  },
+  {
+    "id": "TFT_Item_TitanicHydra",
+    "name": "Zz'Rot Portal",
+    "image": {
+      "full": "TFT_Item_TitanicHydra.png",
+      "sprite": "tft-item1.png",
+      "group": "tft-item",
+      "x": 240,
+      "y": 48,
+      "w": 48,
+      "h": 48,
+      "url": "https://ddragon.leagueoflegends.com/cdn/15.9.1/img/tft-item/TFT_Item_TitanicHydra.png"
+    }
+  },
+  {
+    "id": "TFT_Item_TitansResolve",
+    "name": "Titan's Resolve",
+    "image": {
+      "full": "TFT_Item_TitansResolve.png",
+      "sprite": "tft-item1.png",
+      "group": "tft-item",
+      "x": 288,
+      "y": 48,
+      "w": 48,
+      "h": 48,
+      "url": "https://ddragon.leagueoflegends.com/cdn/15.9.1/img/tft-item/TFT_Item_TitansResolve.png"
+    }
+  },
+  {
+    "id": "TFT_Item_WarmogsArmor",
+    "name": "Warmog's Armor",
+    "image": {
+      "full": "TFT_Item_WarmogsArmor.png",
+      "sprite": "tft-item1.png",
+      "group": "tft-item",
+      "x": 336,
+      "y": 48,
+      "w": 48,
+      "h": 48,
+      "url": "https://ddragon.leagueoflegends.com/cdn/15.9.1/img/tft-item/TFT_Item_WarmogsArmor.png"
+    }
+  },
+  {
+    "id": "TFT_Item_ZekesHerald",
+    "name": "Zeke's Herald",
+    "image": {
+      "full": "TFT_Item_ZekesHerald.png",
+      "sprite": "tft-item1.png",
+      "group": "tft-item",
+      "x": 384,
+      "y": 48,
+      "w": 48,
+      "h": 48,
+      "url": "https://ddragon.leagueoflegends.com/cdn/15.9.1/img/tft-item/TFT_Item_ZekesHerald.png"
+    }
+  },
+  {
+    "id": "TFT_Item_Zephyr",
+    "name": "Zephyr",
+    "image": {
+      "full": "TFT_Item_Zephyr.png",
+      "sprite": "tft-item1.png",
+      "group": "tft-item",
+      "x": 432,
+      "y": 48,
+      "w": 48,
+      "h": 48,
+      "url": "https://ddragon.leagueoflegends.com/cdn/15.9.1/img/tft-item/TFT_Item_Zephyr.png"
+    }
+  },
+  {
+    "id": "TFT_Item_UnusableSlot",
+    "name": "Unusable Slot",
+    "image": {
+      "full": "TFT_Item_UnusableSlot.png",
+      "sprite": "tft-item3.png",
+      "group": "tft-item",
+      "x": 144,
+      "y": 48,
+      "w": 48,
+      "h": 48,
+      "url": "https://ddragon.leagueoflegends.com/cdn/15.9.1/img/tft-item/TFT_Item_UnusableSlot.png"
+    }
+  },
+  {
+    "id": "TFT_Item_SpectralGauntlet",
+    "name": "Evenshroud",
+    "image": {
+      "full": "TFT_Item_SpectralGauntlet.png",
+      "sprite": "tft-item3.png",
+      "group": "tft-item",
+      "x": 192,
+      "y": 48,
+      "w": 48,
+      "h": 48,
+      "url": "https://ddragon.leagueoflegends.com/cdn/15.9.1/img/tft-item/TFT_Item_SpectralGauntlet.png"
+    }
+  },
+  {
+    "id": "TFT_Item_Crownguard",
+    "name": "Crownguard",
+    "image": {
+      "full": "TFT_Item_Crownguard.png",
+      "sprite": "tft-item3.png",
+      "group": "tft-item",
+      "x": 288,
+      "y": 48,
+      "w": 48,
+      "h": 48,
+      "url": "https://ddragon.leagueoflegends.com/cdn/15.9.1/img/tft-item/TFT_Item_Crownguard.png"
+    }
+  },
+  {
+    "id": "TFT_Item_NightHarvester",
+    "name": "Steadfast Heart",
+    "image": {
+      "full": "TFT_Item_NightHarvester.png",
+      "sprite": "tft-item3.png",
+      "group": "tft-item",
+      "x": 384,
+      "y": 48,
+      "w": 48,
+      "h": 48,
+      "url": "https://ddragon.leagueoflegends.com/cdn/15.9.1/img/tft-item/TFT_Item_NightHarvester.png"
+    }
+  },
+  {
+    "id": "TFT_Item_SteraksGage",
+    "name": "Sterak's Gage",
+    "image": {
+      "full": "TFT_Item_SteraksGage.png",
+      "sprite": "tft-item3.png",
+      "group": "tft-item",
+      "x": 48,
+      "y": 96,
+      "w": 48,
+      "h": 48,
+      "url": "https://ddragon.leagueoflegends.com/cdn/15.9.1/img/tft-item/TFT_Item_SteraksGage.png"
+    }
+  },
+  {
+    "id": "TFT_Item_BlueBuff",
+    "name": "Blue Buff",
+    "image": {
+      "full": "TFT_Item_BlueBuff.png",
+      "sprite": "tft-item3.png",
+      "group": "tft-item",
+      "x": 144,
+      "y": 96,
+      "w": 48,
+      "h": 48,
+      "url": "https://ddragon.leagueoflegends.com/cdn/15.9.1/img/tft-item/TFT_Item_BlueBuff.png"
+    }
+  },
+  {
+    "id": "TFT_Item_AdaptiveHelm",
+    "name": "Adaptive Helm",
+    "image": {
+      "full": "TFT_Item_AdaptiveHelm.png",
+      "sprite": "tft-item3.png",
+      "group": "tft-item",
+      "x": 240,
+      "y": 96,
+      "w": 48,
+      "h": 48,
+      "url": "https://ddragon.leagueoflegends.com/cdn/15.9.1/img/tft-item/TFT_Item_AdaptiveHelm.png"
+    }
+  },
+  {
+    "id": "TFT_Item_Leviathan",
+    "name": "Nashor's Tooth",
+    "image": {
+      "full": "TFT_Item_Leviathan.png",
+      "sprite": "tft-item3.png",
+      "group": "tft-item",
+      "x": 336,
+      "y": 96,
+      "w": 48,
+      "h": 48,
+      "url": "https://ddragon.leagueoflegends.com/cdn/15.9.1/img/tft-item/TFT_Item_Leviathan.png"
+    }
+  },
+  {
+    "id": "TFT_Item_AegisOfTheLegion",
+    "name": "Aegis of the Legion",
+    "image": {
+      "full": "TFT_Item_AegisOfTheLegion.png",
+      "sprite": "tft-item3.png",
+      "group": "tft-item",
+      "x": 432,
+      "y": 96,
+      "w": 48,
+      "h": 48,
+      "url": "https://ddragon.leagueoflegends.com/cdn/15.9.1/img/tft-item/TFT_Item_AegisOfTheLegion.png"
+    }
+  },
+  {
+    "id": "TFT_Item_RadiantVirtue",
+    "name": "Virtue of the Martyr",
+    "image": {
+      "full": "TFT_Item_RadiantVirtue.png",
+      "sprite": "tft-item4.png",
+      "group": "tft-item",
+      "x": 0,
+      "y": 0,
+      "w": 48,
+      "h": 48,
+      "url": "https://ddragon.leagueoflegends.com/cdn/15.9.1/img/tft-item/TFT_Item_RadiantVirtue.png"
+    }
+  },
+  {
+    "id": "TFT_Item_BansheesVeil",
+    "name": "Banshee's Veil",
+    "image": {
+      "full": "TFT_Item_BansheesVeil.png",
+      "sprite": "tft-item4.png",
+      "group": "tft-item",
+      "x": 48,
+      "y": 0,
+      "w": 48,
+      "h": 48,
+      "url": "https://ddragon.leagueoflegends.com/cdn/15.9.1/img/tft-item/TFT_Item_BansheesVeil.png"
+    }
+  },
+  {
+    "id": "TFT_Item_EternalFlame",
+    "name": "The Eternal Flame",
+    "image": {
+      "full": "TFT_Item_EternalFlame.png",
+      "sprite": "tft-item4.png",
+      "group": "tft-item",
+      "x": 192,
+      "y": 48,
+      "w": 48,
+      "h": 48,
+      "url": "https://ddragon.leagueoflegends.com/cdn/15.9.1/img/tft-item/TFT_Item_EternalFlame.png"
+    }
+  },
+  {
+    "id": "TFT_Item_SupportKnightsVow",
+    "name": "Knight's Vow",
+    "image": {
+      "full": "TFT_Item_SupportKnightsVow.png",
+      "sprite": "tft-item4.png",
+      "group": "tft-item",
+      "x": 240,
+      "y": 48,
+      "w": 48,
+      "h": 48,
+      "url": "https://ddragon.leagueoflegends.com/cdn/15.9.1/img/tft-item/TFT_Item_SupportKnightsVow.png"
+    }
+  },
+  {
+    "id": "TFT_Item_Moonstone",
+    "name": "Moonstone Renewer",
+    "image": {
+      "full": "TFT_Item_Moonstone.png",
+      "sprite": "tft-item4.png",
+      "group": "tft-item",
+      "x": 288,
+      "y": 48,
+      "w": 48,
+      "h": 48,
+      "url": "https://ddragon.leagueoflegends.com/cdn/15.9.1/img/tft-item/TFT_Item_Moonstone.png"
+    }
+  },
+  {
+    "id": "TFT_Item_Spite",
+    "name": "Spite",
+    "image": {
+      "full": "TFT_Item_Spite.png",
+      "sprite": "tft-item4.png",
+      "group": "tft-item",
+      "x": 336,
+      "y": 48,
+      "w": 48,
+      "h": 48,
+      "url": "https://ddragon.leagueoflegends.com/cdn/15.9.1/img/tft-item/TFT_Item_Spite.png"
+    }
+  },
+  {
+    "id": "TFT_Item_UnstableTreasureChest",
+    "name": "Unstable Treasure Chest",
+    "image": {
+      "full": "TFT_Item_UnstableTreasureChest.png",
+      "sprite": "tft-item4.png",
+      "group": "tft-item",
+      "x": 384,
+      "y": 48,
+      "w": 48,
+      "h": 48,
+      "url": "https://ddragon.leagueoflegends.com/cdn/15.9.1/img/tft-item/TFT_Item_UnstableTreasureChest.png"
+    }
+  },
+  {
+    "id": "TFT_Item_Artifact_TalismanOfAscension",
+    "name": "Talisman Of Ascension",
+    "image": {
+      "full": "TFT_Item_Artifact_TalismanOfAscension.png",
+      "sprite": "tft-item4.png",
+      "group": "tft-item",
+      "x": 432,
+      "y": 48,
+      "w": 48,
+      "h": 48,
+      "url": "https://ddragon.leagueoflegends.com/cdn/15.9.1/img/tft-item/TFT_Item_Artifact_TalismanOfAscension.png"
+    }
+  },
+  {
+    "id": "TFT_Item_Artifact_Fishbones",
+    "name": "Fishbones",
+    "image": {
+      "full": "TFT_Item_Artifact_Fishbones.png",
+      "sprite": "tft-item4.png",
+      "group": "tft-item",
+      "x": 0,
+      "y": 96,
+      "w": 48,
+      "h": 48,
+      "url": "https://ddragon.leagueoflegends.com/cdn/15.9.1/img/tft-item/TFT_Item_Artifact_Fishbones.png"
+    }
+  },
+  {
+    "id": "TFT_Item_Artifact_SuspiciousTrenchCoat",
+    "name": "Suspicious Trench Coat",
+    "image": {
+      "full": "TFT_Item_Artifact_SuspiciousTrenchCoat.png",
+      "sprite": "tft-item4.png",
+      "group": "tft-item",
+      "x": 48,
+      "y": 96,
+      "w": 48,
+      "h": 48,
+      "url": "https://ddragon.leagueoflegends.com/cdn/15.9.1/img/tft-item/TFT_Item_Artifact_SuspiciousTrenchCoat.png"
+    }
+  },
+  {
+    "id": "TFT_Item_Artifact_HorizonFocus",
+    "name": "Horizon Focus",
+    "image": {
+      "full": "TFT_Item_Artifact_HorizonFocus.png",
+      "sprite": "tft-item4.png",
+      "group": "tft-item",
+      "x": 96,
+      "y": 96,
+      "w": 48,
+      "h": 48,
+      "url": "https://ddragon.leagueoflegends.com/cdn/15.9.1/img/tft-item/TFT_Item_Artifact_HorizonFocus.png"
+    }
+  },
+  {
+    "id": "TFT_Item_Artifact_Mittens",
+    "name": "Mittens",
+    "image": {
+      "full": "TFT_Item_Artifact_Mittens.png",
+      "sprite": "tft-item4.png",
+      "group": "tft-item",
+      "x": 144,
+      "y": 96,
+      "w": 48,
+      "h": 48,
+      "url": "https://ddragon.leagueoflegends.com/cdn/15.9.1/img/tft-item/TFT_Item_Artifact_Mittens.png"
+    }
+  },
+  {
+    "id": "TFT_Item_Artifact_UnendingDespair",
+    "name": "Unending Despair",
+    "image": {
+      "full": "TFT_Item_Artifact_UnendingDespair.png",
+      "sprite": "tft-item4.png",
+      "group": "tft-item",
+      "x": 192,
+      "y": 96,
+      "w": 48,
+      "h": 48,
+      "url": "https://ddragon.leagueoflegends.com/cdn/15.9.1/img/tft-item/TFT_Item_Artifact_UnendingDespair.png"
+    }
+  },
+  {
+    "id": "TFT_Item_Artifact_RapidFirecannon",
+    "name": "Rapid Firecannon",
+    "image": {
+      "full": "TFT_Item_Artifact_RapidFirecannon.png",
+      "sprite": "tft-item4.png",
+      "group": "tft-item",
+      "x": 240,
+      "y": 96,
+      "w": 48,
+      "h": 48,
+      "url": "https://ddragon.leagueoflegends.com/cdn/15.9.1/img/tft-item/TFT_Item_Artifact_RapidFirecannon.png"
+    }
+  },
+  {
+    "id": "TFT_Item_Artifact_InnervatingLocket",
+    "name": "Innervating Locket",
+    "image": {
+      "full": "TFT_Item_Artifact_InnervatingLocket.png",
+      "sprite": "tft-item4.png",
+      "group": "tft-item",
+      "x": 288,
+      "y": 96,
+      "w": 48,
+      "h": 48,
+      "url": "https://ddragon.leagueoflegends.com/cdn/15.9.1/img/tft-item/TFT_Item_Artifact_InnervatingLocket.png"
+    }
+  },
+  {
+    "id": "TFT_Item_Artifact_LudensTempest",
+    "name": "Luden's Tempest",
+    "image": {
+      "full": "TFT_Item_Artifact_LudensTempest.png",
+      "sprite": "tft-item4.png",
+      "group": "tft-item",
+      "x": 336,
+      "y": 96,
+      "w": 48,
+      "h": 48,
+      "url": "https://ddragon.leagueoflegends.com/cdn/15.9.1/img/tft-item/TFT_Item_Artifact_LudensTempest.png"
+    }
+  },
+  {
+    "id": "TFT_Item_Artifact_SilvermereDawn",
+    "name": "Silvermere Dawn",
+    "image": {
+      "full": "TFT_Item_Artifact_SilvermereDawn.png",
+      "sprite": "tft-item4.png",
+      "group": "tft-item",
+      "x": 384,
+      "y": 96,
+      "w": 48,
+      "h": 48,
+      "url": "https://ddragon.leagueoflegends.com/cdn/15.9.1/img/tft-item/TFT_Item_Artifact_SilvermereDawn.png"
+    }
+  },
+  {
+    "id": "TFT_Item_Artifact_ProwlersClaw",
+    "name": "Prowler's Claw",
+    "image": {
+      "full": "TFT_Item_Artifact_ProwlersClaw.png",
+      "sprite": "tft-item4.png",
+      "group": "tft-item",
+      "x": 432,
+      "y": 96,
+      "w": 48,
+      "h": 48,
+      "url": "https://ddragon.leagueoflegends.com/cdn/15.9.1/img/tft-item/TFT_Item_Artifact_ProwlersClaw.png"
+    }
+  },
+  {
+    "id": "TFT_Item_Artifact_SpectralCutlass",
+    "name": "Spectral Cutlass",
+    "image": {
+      "full": "TFT_Item_Artifact_SpectralCutlass.png",
+      "sprite": "tft-item5.png",
+      "group": "tft-item",
+      "x": 0,
+      "y": 0,
+      "w": 48,
+      "h": 48,
+      "url": "https://ddragon.leagueoflegends.com/cdn/15.9.1/img/tft-item/TFT_Item_Artifact_SpectralCutlass.png"
+    }
+  },
+  {
+    "id": "TFT_Item_Artifact_BlightingJewel",
+    "name": "Blighting Jewel",
+    "image": {
+      "full": "TFT_Item_Artifact_BlightingJewel.png",
+      "sprite": "tft-item5.png",
+      "group": "tft-item",
+      "x": 48,
+      "y": 0,
+      "w": 48,
+      "h": 48,
+      "url": "https://ddragon.leagueoflegends.com/cdn/15.9.1/img/tft-item/TFT_Item_Artifact_BlightingJewel.png"
+    }
+  },
+  {
+    "id": "TFT_Item_Artifact_WitsEnd",
+    "name": "Wit's End",
+    "image": {
+      "full": "TFT_Item_Artifact_WitsEnd.png",
+      "sprite": "tft-item5.png",
+      "group": "tft-item",
+      "x": 96,
+      "y": 0,
+      "w": 48,
+      "h": 48,
+      "url": "https://ddragon.leagueoflegends.com/cdn/15.9.1/img/tft-item/TFT_Item_Artifact_WitsEnd.png"
+    }
+  },
+  {
+    "id": "TFT_Item_Artifact_ForbiddenIdol",
+    "name": "Forbidden Idol",
+    "image": {
+      "full": "TFT_Item_Artifact_ForbiddenIdol.png",
+      "sprite": "tft-item5.png",
+      "group": "tft-item",
+      "x": 144,
+      "y": 0,
+      "w": 48,
+      "h": 48,
+      "url": "https://ddragon.leagueoflegends.com/cdn/15.9.1/img/tft-item/TFT_Item_Artifact_ForbiddenIdol.png"
+    }
+  },
+  {
+    "id": "TFT_Item_Artifact_LichBane",
+    "name": "Lich Bane",
+    "image": {
+      "full": "TFT_Item_Artifact_LichBane.png",
+      "sprite": "tft-item5.png",
+      "group": "tft-item",
+      "x": 192,
+      "y": 0,
+      "w": 48,
+      "h": 48,
+      "url": "https://ddragon.leagueoflegends.com/cdn/15.9.1/img/tft-item/TFT_Item_Artifact_LichBane.png"
+    }
+  },
+  {
+    "id": "TFT_Item_Artifact_LightshieldCrest",
+    "name": "Lightshield Crest",
+    "image": {
+      "full": "TFT_Item_Artifact_LightshieldCrest.png",
+      "sprite": "tft-item5.png",
+      "group": "tft-item",
+      "x": 240,
+      "y": 0,
+      "w": 48,
+      "h": 48,
+      "url": "https://ddragon.leagueoflegends.com/cdn/15.9.1/img/tft-item/TFT_Item_Artifact_LightshieldCrest.png"
+    }
+  },
+  {
+    "id": "TFT_Item_Artifact_SeekersArmguard",
+    "name": "Seeker's Armguard",
+    "image": {
+      "full": "TFT_Item_Artifact_SeekersArmguard.png",
+      "sprite": "tft-item5.png",
+      "group": "tft-item",
+      "x": 288,
+      "y": 0,
+      "w": 48,
+      "h": 48,
+      "url": "https://ddragon.leagueoflegends.com/cdn/15.9.1/img/tft-item/TFT_Item_Artifact_SeekersArmguard.png"
+    }
+  },
+  {
+    "id": "TFT_Item_SentinelSwarm",
+    "name": "Sentinel Swarm",
+    "image": {
+      "full": "TFT_Item_SentinelSwarm.png",
+      "sprite": "tft-item5.png",
+      "group": "tft-item",
+      "x": 96,
+      "y": 96,
+      "w": 48,
+      "h": 48,
+      "url": "https://ddragon.leagueoflegends.com/cdn/15.9.1/img/tft-item/TFT_Item_SentinelSwarm.png"
+    }
+  },
+  {
+    "id": "TFT_Item_FryingPan",
+    "name": "Frying Pan",
+    "image": {
+      "full": "TFT_Item_FryingPan.png",
+      "sprite": "tft-item5.png",
+      "group": "tft-item",
+      "x": 144,
+      "y": 96,
+      "w": 48,
+      "h": 48,
+      "url": "https://ddragon.leagueoflegends.com/cdn/15.9.1/img/tft-item/TFT_Item_FryingPan.png"
+    }
+  },
+  {
+    "id": "TFT_Item_TacticiansRing",
+    "name": "Tactician's Cape",
+    "image": {
+      "full": "TFT_Item_TacticiansRing.png",
+      "sprite": "tft-item5.png",
+      "group": "tft-item",
+      "x": 192,
+      "y": 96,
+      "w": 48,
+      "h": 48,
+      "url": "https://ddragon.leagueoflegends.com/cdn/15.9.1/img/tft-item/TFT_Item_TacticiansRing.png"
+    }
+  },
+  {
+    "id": "TFT_Item_TacticiansScepter",
+    "name": "Tactician's Shield",
+    "image": {
+      "full": "TFT_Item_TacticiansScepter.png",
+      "sprite": "tft-item5.png",
+      "group": "tft-item",
+      "x": 240,
+      "y": 96,
+      "w": 48,
+      "h": 48,
+      "url": "https://ddragon.leagueoflegends.com/cdn/15.9.1/img/tft-item/TFT_Item_TacticiansScepter.png"
+    }
+  },
+  {
+    "id": "TFT_Item_Artifact_CursedVampiricScepter",
+    "name": "Corrupt Vampiric Scepter",
+    "image": {
+      "full": "TFT_Item_Artifact_CursedVampiricScepter.png",
+      "sprite": "tft-item5.png",
+      "group": "tft-item",
+      "x": 288,
+      "y": 96,
+      "w": 48,
+      "h": 48,
+      "url": "https://ddragon.leagueoflegends.com/cdn/15.9.1/img/tft-item/TFT_Item_Artifact_CursedVampiricScepter.png"
+    }
+  }
+]
