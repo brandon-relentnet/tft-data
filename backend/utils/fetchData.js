@@ -55,7 +55,11 @@ function enhanceData(item, entityType) {
     ...item,
     image: {
       ...item.image,
-      url: `${BASE_URL}/img/tft-${entityType}/${item.image.full}`,
+      fullUrl: `${BASE_URL}/img/tft-${entityType}/${item.image.full}`,
+      spriteSheetUrl: `${BASE_URL}/img/sprite/${item.image.sprite}`,
+      spriteUrl: `/images/sprites/champions/${
+        item.image.full.split(".")[0]
+      }.webp`,
     },
   };
 }

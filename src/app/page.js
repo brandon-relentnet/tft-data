@@ -1,103 +1,243 @@
-import Image from "next/image";
+"use client";
 
-export default function Home() {
+import { useState, useEffect, useRef } from "react";
+
+function ChampionsPage() {
+  const [champions, setChampions] = useState([]);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(null);
+  const [popupVisible, setPopupVisible] = useState(true);
+  const [popupHeight, setPopupHeight] = useState("h-60");
+  const [activeTooltip, setActiveTooltip] = useState(null);
+
+  const tierColor = {
+    1: "var(--color-overlay-0)",
+    2: "var(--color-green)",
+    3: "var(--color-blue)",
+    4: "var(--color-mauve)",
+    5: "var(--color-yellow)",
+  };
+
+  const ChampionIcon = ({ champion }) => {
+    const iconRef = useRef(null);
+    const [isHovering, setIsHovering] = useState(false);
+
+    const spriteStyle = {
+      width: `${champion.image.w}px`,
+      height: `${champion.image.h}px`,
+      backgroundImage: `url(${champion.image.spriteUrl})`,
+      backgroundPosition: `-${champion.image.x}px -${champion.image.y}px`,
+      borderColor: tierColor[champion.tier],
+    };
+
+    const openInNewTab = (url) => {
+      const newWindow = window.open(url, "_blank", "noopener,noreferrer");
+      if (newWindow) newWindow.opener = null;
+    };
+
+    const onClickUrl = (url) => {
+      return () => openInNewTab(url);
+    };
+
+    // Show tooltip immediately on hover
+    const handleMouseEnter = () => {
+      setIsHovering(true);
+
+      if (iconRef.current) {
+        const rect = iconRef.current.getBoundingClientRect();
+        setActiveTooltip({
+          champion,
+          position: {
+            top: rect.top,
+            left: rect.left,
+            width: rect.width,
+            height: rect.height,
+          },
+        });
+      }
+    };
+
+    const handleMouseLeave = () => {
+      setIsHovering(false);
+
+      if (!isHovering) {
+        setActiveTooltip(null);
+      }
+    };
+
+    return (
+      <div
+        ref={iconRef}
+        className="champion-icon rounded-lg border cursor-pointer"
+        onClick={onClickUrl(`https://www.metatft.com/units/${champion.name}`)}
+        onMouseEnter={handleMouseEnter}
+        onMouseLeave={handleMouseLeave}
+        style={{
+          ...spriteStyle,
+        }}
+      />
+    );
+  };
+
+  useEffect(() => {
+    async function fetchChampions() {
+      try {
+        const response = await fetch("/api/champions");
+
+        if (!response.ok) {
+          throw new Error(`Error: ${response.status}`);
+        }
+
+        const data = await response.json();
+        setChampions(data);
+        setLoading(false);
+      } catch (err) {
+        console.error("Failed to fetch champions:", err);
+        setError(err.message);
+        setLoading(false);
+      }
+    }
+
+    fetchChampions();
+  }, []);
+
+  if (loading) return <div>Loading champions...</div>;
+  if (error) return <div>Error loading champions: {error}</div>;
+
+  // Divide champions into tiers and sort alphabetically inside each tier
+  const tiers = [1, 2, 3, 4, 5];
+
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm/6 text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2 tracking-[-.01em]">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-[family-name:var(--font-geist-mono)] font-semibold">
-              src/app/page.js
-            </code>
-            .
-          </li>
-          <li className="tracking-[-.01em]">
-            Save and see your changes instantly.
-          </li>
-        </ol>
+    <div className="flex flex-col items-center justify-center min-h-screen p-4">
+      <div className="flex items-center justify-between mb-4 gap-4">
+        <h1 className="text-xl text-text font-semibold">Champions</h1>
+        <button
+          className="px-4 py-2 text-sm font-semibold text-text bg-surface-0 rounded-lg hover:bg-surface-1 cursor-pointer transition duration-150"
+          onClick={() => {
+            setPopupVisible(!popupVisible);
+            setPopupHeight(popupVisible ? "h-0" : "h-60");
+          }}
+        >
+          {popupVisible ? "Hide" : "Show"}
+        </button>
+        {popupVisible && (
+          <button
+            className="text-text font-semibold cursor-pointer"
+            onClick={() =>
+              popupHeight === "h-160"
+                ? setPopupHeight("h-60")
+                : setPopupHeight("h-160")
+            }
+          >
+            {popupHeight === "h-60" ? "More" : "Less"}
+          </button>
+        )}
+      </div>
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:w-auto"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
+      {/* Champion grid container */}
+      <div
+        className={`overflow-auto shadow-lg px-4 rounded-xl inline-block ${popupHeight} transition-all duration-300 ease-in-out bg-mantle`}
+      >
+        {tiers.map((tier) => {
+          const tierChampions = champions
+            .filter((champion) => champion.tier === tier)
+            .sort((a, b) => a.name.localeCompare(b.name));
+
+          return (
+            <div key={tier} className="my-4">
+              {tierChampions.length > 0 ? (
+                <div
+                  className={`inline-grid shadow-lg grid-cols-6 gap-2 border-3 rounded-xl p-2 bg-mantle`}
+                  style={{
+                    borderColor: tierColor[tier],
+                  }}
+                >
+                  {tierChampions.map((champion) => (
+                    <ChampionIcon key={champion.id} champion={champion} />
+                  ))}
+                </div>
+              ) : (
+                <p>No champions in this tier</p>
+              )}
+            </div>
+          );
+        })}
+      </div>
+
+      {/* Global tooltip with improved hover behavior */}
+      {activeTooltip && (
+        <div
+          className="fixed z-[9999] bg-surface-0 rounded-lg shadow-lg text-text overflow-hidden border-surface-1"
+          style={{
+            top: `${activeTooltip.position.top - 8}px`,
+            left: `${
+              activeTooltip.position.left + activeTooltip.position.width / 2
+            }px`,
+            transform: "translateX(-50%) translateY(-100%)",
+            width: "256px",
+            height: "auto",
+          }}
+        >
+          {/* Triangle pointer */}
+          <div
+            style={{
+              background: `var(--color-${
+                tierColor[activeTooltip.champion.tier]
+              })`,
+            }}
+            className="absolute size-5 transform rotate-45 left-1/2 -ml-1.5 -bottom-2.5 shadow-lg border-3 border-surface-1"
+          />
+
+          <div
+            className={`relative shadow-lg object-fill px-2 flex flex-col justify-between bg-no-repeat bg-center rounded-t-lg border-3
+            }`}
+            style={{
+              backgroundImage: `url(${activeTooltip.champion.image.fullUrl})`,
+              backgroundSize: "cover",
+              backgroundPosition: "center",
+              borderColor: `var(--color-${
+                tierColor[activeTooltip.champion.tier]
+              })`,
+              height: "150px",
+              width: "256px",
+            }}
           >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 w-full sm:w-auto md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
+            <div className="absolute rounded-t-lg inset-0 w-full h-full bg-mantle/70" />
+            <div className="relative z-10">
+              <h3 className="font-bold text-text text-lg">
+                {activeTooltip.champion.name}
+              </h3>
+              <h4 className="font-semibold text-subtext-0">Type of unit</h4>
+            </div>
+            <div className="flex items-end justify-between relative z-10 font-bold text-text text-lg">
+              <div>
+                <h3>trait</h3>
+                <h3>trait</h3>
+              </div>
+              {activeTooltip.champion.tier && (
+                <p>
+                  <span className="font-semibold">Cost:</span>{" "}
+                  {activeTooltip.champion.tier}
+                </p>
+              )}
+            </div>
+          </div>
+          <div className="p-2 flex flex-col border-3 border-surface-1 border-t-0 rounded-b-lg">
+            <div className="flex justify-between">
+              <h4 className="font-semibold text-subtext-0">Paint Bomb</h4>
+              <h4 className="font-semibold text-subtext-0">25/70</h4>
+            </div>
+            <p className="text-text">
+              Ability Description: Throw a paint bomb at the largest group of
+              enemies within 5 (➚) hexes, dealing 250/375/1500 (⚡) magic damage
+              to enemies within 1 hex and 100/150/600 (⚡) magic damage to the
+              nearest 4 enemies.
+            </p>
+          </div>
         </div>
-      </main>
-      <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
+      )}
     </div>
   );
 }
+
+export default ChampionsPage;
